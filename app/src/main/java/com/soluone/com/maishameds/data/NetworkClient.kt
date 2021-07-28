@@ -1,9 +1,9 @@
 package com.soluone.com.maishameds.data
 
+import com.soluone.com.maishameds.BuildConfig
 import okhttp3.Dispatcher
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
-import rx.android.BuildConfig
 import java.util.concurrent.TimeUnit
 
 object NetworkClient {

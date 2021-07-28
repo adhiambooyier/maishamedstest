@@ -1,10 +1,10 @@
 package com.soluone.com.maishameds.data
 
 import com.soluone.com.maishameds.domain.Post
+import io.reactivex.rxjava3.core.Observable
 import retrofit2.http.GET
-import rx.Observable
 
 interface RestInterface {
-    @GET("sales/api/kyosk")
-    fun fetchPosts(): Observable<Post>
+    @GET("posts")
+    fun fetchPosts(): Observable<ArrayList<Post>>
 }
